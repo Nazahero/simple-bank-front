@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tools.css">
+    <title>Simple Bank  |  <%= title %> </title>
+</head>
+<body>
+    <%- include('./partials/header.ejs') %>
+    <div class="background">
+        <div class="layer"></div>
+        <img class="background_img" src="./img/background.jpg" alt="Image not found">
+        <div class="background_text"> 
+            <div class="text">
+                <div class="h1">AsaBank</div>
+                <div class="h2">Transactions with 0% commission</div>
+                <div class="button-bar">
+                    <a class="sign-in" href="/login">Log-in</a>
+                    <a class="sign-up" href="/signup">Sign-up</a>        
+                </div>
+            </div>        
+        </div>
+        
+    </div>
+    
+   
+
+    <main>
+        <div class="info">
+            <div class="card credit"></div>
+            <div class="card transaction"></div>
+            <div class="card deposit"></div>
+        </div>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+    <script src="./js/script.js"></script>
+    <script>
+    
+    </script>
+</body>
+</html>
+
+    
