@@ -1,2 +1,9 @@
 # simple-bank-front
-MVC project with Node JS
+Side project for self improvment
+
+### What did I learn ?
+- NodeJS
+- MVC pattern
+- Git/GitHub
+- Http server
+- JWT Auth
